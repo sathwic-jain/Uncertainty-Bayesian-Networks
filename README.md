@@ -2,6 +2,8 @@
 
 This Bayesian Network system, implemented in Java, enables users to perform various probabilistic inferences on Bayesian Networks (BNs). It can handle different types of BNs, not restricted to binary variables. The system covers four main parts - Simple Inference, Variable Elimination, General Inference, and Extension for BN validation.
 
+Refer to the question.pdf for further details on the problem 
+
 ### Features
 
 - **Part 1: Simple Inference**
