@@ -35,12 +35,15 @@ This Bayesian Network system, implemented in Java, enables users to perform vari
 3. **Input Instructions for Each Part**
    - Follow the prompts to input queries, evidence (if required), and variable elimination orders as per the part's requirements.
 
-### Usage Examples
+### Usage Examples with Results
 
 - **Part 1: Simple Inference**
   ```
   Query:
   D:T
+
+  Output:
+  Probability of D = true: 0.57050
   ```
 
 - **Part 2: Variable Elimination**
@@ -49,6 +52,9 @@ This Bayesian Network system, implemented in Java, enables users to perform vari
   N:T
   Order:
   J,L,K,M,O
+
+  Output:
+  Probability of N = true: 0.59180
   ```
 
 - **Part 3: General Inference**
@@ -57,10 +63,18 @@ This Bayesian Network system, implemented in Java, enables users to perform vari
   Z:T
   Evidence:
   R:T U:T
+
+  Output:
+  Probability of Z = true given evidence (R = true, U = true): 0.71235
   ```
 
-- **Part 4: Extension**
-  No specific user inputs required; performs BN validation.
+- **Part 4: Extension (Validation)**
+  ```
+  Output:
+  The given Bayesian Network is validated as a Directed Acyclic Graph (DAG) and the conditional probability tables are correct.
+  ```
+
+These example sections in the README give users an idea of how the queries are formatted and the expected output results. It can assist users in understanding how to input queries and interpret the calculated probabilities or validation outcomes from each part of the Bayesian Network system.
 
 ### Implementation Details
 
